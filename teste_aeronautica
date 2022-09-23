@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float nota, peso, altura;
+
+     printf(" Informe a sua altura ");
+     scanf("%f", & altura);
+
+     printf("Informe o seu peso ");
+     scanf("%f", & peso);
+
+     printf("Informe a sua nota ");
+     scanf("%f", & nota);
+
+    if (nota==10)
+    {
+        printf("Aprovado");
+    }else{}
+        if ((altura>1.7) && (peso<80) && (nota>9))
+            {
+
+                printf("Aprovado");
+            }else{
+                printf("Reprovado");
+            }
+    return 0;
+}
